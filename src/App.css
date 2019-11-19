@@ -1,5 +1,53 @@
-.App {
-  text-align: center;
+body {
+  background-color: orange;
+}
+
+.title {
+  color: blue;
+}
+
+.myBtn {
+  display: inline-block;
+  color: white;
+  padding: 10px, 25px;
+  border-radius: 5px;
+  text-decoration:none;
+  background-color: royalblue;
+  margin: 50px 0 0 50px;
+  font-size:30px;
+}
+
+
+.card {
+  width: 285px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.details {
+  background-color: white;
+  padding: 30px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: royalblue;
+  color: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 15px 30px;
+  margin-right: 25px;
+  cursor: pointer;
 }
 
 .App-logo {
